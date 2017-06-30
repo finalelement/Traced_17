@@ -82,7 +82,7 @@ distributionPlot(inter_scanner_icc','colormap',gray)
 plotSpread(inter_scanner_icc(:,top_five_indexes)','distributionMarkers','x','distributionColors','m')
 set(gca,'XtickLabel',Tract_name(1,:))
 grid on
-
+print('inter_scanner_violin', '-depsc2','-r0')
 
 %% Violin Plots Dice and ICC Intra Scanner
 disp('Plotting intra-scanner DSC and ICC :')
@@ -105,6 +105,7 @@ distributionPlot(intra_scanner_icc','colormap',gray)
 plotSpread(intra_scanner_icc(:,top_five_indexes)','distributionMarkers','x','distributionColors','m')
 set(gca,'XtickLabel',Tract_name(1,:))
 grid on
+print('intra_scanner_violin', '-depsc2','-r0')
 
 %% Violin Plots Dice and ICC Intra Session
 disp('Plotting intra-session DSC and ICC :')
@@ -127,7 +128,7 @@ distributionPlot(intra_scanner_icc','colormap',gray)
 plotSpread(intra_session_icc(:,top_five_indexes)','distributionMarkers','x','distributionColors','m')
 set(gca,'XtickLabel',Tract_name(1,:))
 grid on
-
+print('intra_session_violin', '-depsc2','-r0')
 
 % End of Violin Plots Analysis
 
