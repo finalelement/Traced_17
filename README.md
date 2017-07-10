@@ -12,3 +12,5 @@ Intra-Scanner and Intra-Session Analysis.
 Second part of the script will generate the median of the top five submissions from the leaderboard across both scanner A
 and scanner B. The generated visual tracts will be saved as pngs in the operating directory.
 
+Two rough drafts of figures for the article are contained in the Results folder by the names of Violin_analysis and pre-processing.
+
