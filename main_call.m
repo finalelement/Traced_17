@@ -152,3 +152,17 @@ output_median = median(median_matrix,6);
 
 two_track_vis(output_median);
 
+% End of Track Visualization
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Figure 3 Top five submissions uncinate and fornix including left and
+% right when compared with the median of the top five submissions
+
+% Visualizaton script
+unc_fx_five_matrix = median_matrix(:,:,:,1:4,:,:);
+
+for jVal=1:5
+   single_submission = reshape(unc_fx_five_matrix(:,:,:,:,:,jVal),[78 93 75 4 20]);
+   vis_unc_fornix(single_submission,jVal) 
+end
+
