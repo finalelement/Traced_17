@@ -14,3 +14,10 @@ and scanner B. The generated visual tracts will be saved as pngs in the operatin
 
 Two rough drafts of figures for the article are contained in the Results folder by the names of Violin_analysis and pre-processing.
 
+Figures in brief:
+
+Figure 1 : Pre-processing pipeline of the data that was provided to the challenge participants.
+
+Figure 2 : Violin Plot analysis of all tracts for inter-scanner, intra-scanner, intra-session along with visual representation of the median tracts based on top five submissions
+
+Figure 3 : The top four submissions when compared with the median of the top five submissions compared.
